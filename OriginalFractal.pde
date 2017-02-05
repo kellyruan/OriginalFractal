@@ -11,9 +11,9 @@ public void draw()
 
 public void fractal(int x, int y, int rad)
 {
-  noFill();
-  stroke((int)(Math.random()*255,(int)(Math.random()*255,(int)(Math.random()*255);
-  int num = (int)(Math.random()*600);
+	noFill();
+	stroke((int)(Math.random()*255,(int)(Math.random()*255,(int)(Math.random()*255));
+	int num = (int)(Math.random()*600);
 	ellipse(x, y, rad, rad);
 	if(rad >= num)
 	{
