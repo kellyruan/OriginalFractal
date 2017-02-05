@@ -27,7 +27,7 @@ public void fractal(int x, int y, int rad)
 		fractal(x+rad/4-44, y+rad/4-44, rad/2);
 		fractal(x-rad/4+44, y+rad/4-44, rad/2);
 		fractal(x+rad/4-44, y-rad/4+44, rad/2);
-		fractal(x+rad/4-44, y+rad/4+44, rad/2);
+		fractal(x+rad/4-44, y+rad/4-44, rad/2);
 		strokeColor1-=20;
 		strokeColor2-=20;
 		strokeColor3-=20;
